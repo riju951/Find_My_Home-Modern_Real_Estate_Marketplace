@@ -1,9 +1,9 @@
 {
-  "name": "mern-estate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "real-estate-marketplace",
   "type": "module",
+  "version": "1.0.0",
+  "description": "Modern Real Estate Marketplace with MERN, json web tokens authentication and redux toolkit.",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node api/index.js",
@@ -18,9 +18,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.6.0",
-    "mongoose": "^7.5.0",
-    "nodemon": "^3.0.1",
-    "punycode": "^2.3.1"
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
   }
 }
